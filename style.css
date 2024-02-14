@@ -69,6 +69,7 @@ nav{
 }
 .text span{
     color: #5c5b5b;
+    word-break: break-all;
 
 }
 
