@@ -30,7 +30,8 @@ function checkWord(word){
     })
 }
 
-btn.addEventListener("click",function(){
+f1.addEventListener("submit",function(e){
+    e.preventDefault();
     let searchValue = input.value;
     if(searchValue == ""){
         alert("Please Enter your word");
